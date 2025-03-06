@@ -1,11 +1,11 @@
 /* AIzaSyD7Zpn4V2WK1_OU0s8NCgJnrolyEbVt5P4 */
 // const api_key= "AIzaSyD7Zpn4V2WK1_OU0s8NCgJnrolyEbVt5P4"
-
 import {
     GoogleGenerativeAI,
     HarmCategory,
     HarmBlockThreshold,
   } from "@google/generative-ai";
+import { configDotenv } from "dotenv";
   
   const apiKey = "AIzaSyD7Zpn4V2WK1_OU0s8NCgJnrolyEbVt5P4"
   const genAI = new GoogleGenerativeAI(apiKey);
